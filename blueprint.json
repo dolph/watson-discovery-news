@@ -11,18 +11,17 @@
   ],
   "generators": {
     "node": [
-      "generator-starterkit-content-downloader",
-      "generator-ibm-cloud-enablement"
+      "generator-ibm-cloud-enablement",
+      "generator-ibm-service-enablement",
+      "generator-starterkit-content-downloader"
     ]
   },
   "generatorOptions": {
+    "generator-ibm-cloud-enablement": {},
+    "generator-ibm-service-enablement": {},
     "generator-starterkit-content-downloader": {
-      "registry": "https://npm-registry.whitewater.ibm.com",
-      "scope": "@arf",
-      "version": "0.0.x"
-    },
-    "generator-ibm-cloud-enablement": {
-      "version": "0.0.x"
+      "registry": "https://na.artifactory.swg-devops.com/artifactory/api/npm/bmd-npm-virtual",
+      "scope": "@arf"
     }
   },
   "requiredCapabilities": [
