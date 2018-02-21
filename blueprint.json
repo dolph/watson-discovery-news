@@ -20,7 +20,7 @@
     "generator-ibm-cloud-enablement": {
       "version": "0.x"
     },
-    "generator-ibm-service-enablement": {},
+    "generator-ibm-service-enablement": {
       "version": "0.x"
     },
     "generator-starterkit-content-downloader": {
