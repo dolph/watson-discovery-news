@@ -4,16 +4,16 @@
   "email": "cloud@us.ibm.com",
   "generatorOptions": {
     "generator-ibm-cloud-enablement": {
-      "version": "x.x"
+      "version": "0.x"
     },
     "generator-ibm-core-node-express": {
-      "version": "x.x"
+      "version": "0.x"
     },
     "generator-ibm-service-enablement": {
-      "version": "x.x"
+      "version": "0.x"
     },
     "generator-ibm-usecase-enablement": {
-      "version": "x.x"
+      "version": "0.x"
     },
     "generator-starterkit-content-downloader": {
       "registry": "https://na.artifactory.swg-devops.com/artifactory/api/npm/bmd-npm-virtual",
