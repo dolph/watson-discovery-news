@@ -1,35 +1,30 @@
 {
-  "name": "Create a cognitive news search app",
-  "description": "Build a cognitive news search and trends web app using Node.js and the Watson Discovery service.",
-  "thumbnailURL": "blueprint/thumbnail.svg",
   "appIconURL": "blueprint/appicon.svg",
-  "previewURLs": [],
-  "type": "WEB",
-  "tags": [
-    "cli",
-    "node",
-    "watson"
-  ],
-  "generators": {
-    "node": [
-      "generator-ibm-cloud-enablement",
-      "generator-ibm-service-enablement",
-      "generator-starterkit-content-downloader"
-    ]
-  },
+  "description": "Build a cognitive news search and trends web app using Node.js and the Watson Discovery service.",
+  "email": "cloud@us.ibm.com",
   "generatorOptions": {
-    "generator-ibm-cloud-enablement": {
-      "version": "0.x"
+    "generator-ibm-cloud-enablement": {},
+    "generator-ibm-core-node-express": {
+      "version": "latest"
     },
-    "generator-ibm-service-enablement": {
-      "version": "0.x"
-    },
+    "generator-ibm-service-enablement": {},
+    "generator-ibm-usecase-enablement": {},
     "generator-starterkit-content-downloader": {
       "registry": "https://na.artifactory.swg-devops.com/artifactory/api/npm/bmd-npm-virtual",
       "scope": "@arf",
       "version": "0.x"
     }
   },
+  "generators": {
+    "node": [
+      "generator-ibm-core-node-express",
+      "generator-ibm-cloud-enablement",
+      "generator-ibm-service-enablement",
+      "generator-ibm-usecase-enablement"
+    ]
+  },
+  "name": "Create a cognitive news search app",
+  "previewURLs": [],
   "requiredCapabilities": [
     "discovery"
   ],
@@ -39,5 +34,11 @@
   "servicePlans": {
     "discovery": "lite"
   },
-  "email": "cloud@us.ibm.com"
+  "tags": [
+    "cli",
+    "node",
+    "watson"
+  ],
+  "thumbnailURL": "blueprint/thumbnail.svg",
+  "type": "WEB"
 }
