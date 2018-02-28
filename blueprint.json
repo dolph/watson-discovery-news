@@ -6,6 +6,9 @@
     "generator-core-python-flask": {
       "scope": "@arf"
     },
+    "generator-git-starterkit-credentials-builder": {
+      "version": "0.0.5"
+    },
     "generator-ibm-cloud-enablement": {
       "version": "0.8.9"
     },
@@ -34,6 +37,9 @@
     "generator-ibm-usecase-enablement": {
       "version": "3.2.0"
     },
+    "generator-starterkit-content-downloader": {
+      "version": "0.0.10"
+    },
     "generator-swiftserver": {}
   },
   "generators": {
@@ -41,7 +47,9 @@
       "generator-ibm-core-node-express",
       "generator-ibm-cloud-enablement",
       "generator-ibm-service-enablement",
-      "generator-ibm-usecase-enablement"
+      "generator-ibm-usecase-enablement",
+      "generator-git-starterkit-credentials-builder",
+      "generator-starterkit-content-downloader"
     ]
   },
   "name": "Create a cognitive news search app",
