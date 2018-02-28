@@ -3,12 +3,18 @@
   "description": "Build a cognitive news search and trends web app using Node.js and the Watson Discovery service.",
   "email": "cloud@us.ibm.com",
   "generatorOptions": {
-    "generator-ibm-cloud-enablement": {},
-    "generator-ibm-core-node-express": {
-      "version": "latest"
+    "generator-ibm-cloud-enablement": {
+      "version": "x.x"
     },
-    "generator-ibm-service-enablement": {},
-    "generator-ibm-usecase-enablement": {},
+    "generator-ibm-core-node-express": {
+      "version": "x.x"
+    },
+    "generator-ibm-service-enablement": {
+      "version": "x.x"
+    },
+    "generator-ibm-usecase-enablement": {
+      "version": "x.x"
+    },
     "generator-starterkit-content-downloader": {
       "registry": "https://na.artifactory.swg-devops.com/artifactory/api/npm/bmd-npm-virtual",
       "scope": "@arf",
