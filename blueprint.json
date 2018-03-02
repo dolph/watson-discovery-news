@@ -42,6 +42,7 @@
     "discovery": "lite"
   },
   "tags": [
+    "appservice",
     "cli",
     "node",
     "watson"
