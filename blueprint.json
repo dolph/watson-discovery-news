@@ -18,15 +18,16 @@
     "generator-starterkit-content-downloader": {
       "registry": "https://na.artifactory.swg-devops.com/artifactory/api/npm/bmd-npm-virtual",
       "scope": "@arf",
-      "version": "0.x"
+      "version": "0.0.10"
     }
   },
   "generators": {
     "node": [
-      "generator-ibm-core-node-express",
       "generator-ibm-cloud-enablement",
+      "generator-ibm-core-node-express",
       "generator-ibm-service-enablement",
-      "generator-ibm-usecase-enablement"
+      "generator-ibm-usecase-enablement",
+      "generator-starterkit-content-downloader"
     ]
   },
   "name": "Create a cognitive news search app",
