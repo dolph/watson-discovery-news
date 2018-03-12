@@ -41,10 +41,8 @@
     "discovery": "lite"
   },
   "tags": [
-    "appservice",
     "cli",
-    "node",
-    "watson"
+    "devex"
   ],
   "thumbnailURL": "blueprint/thumbnail.svg",
   "type": "WEB"
